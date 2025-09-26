@@ -1,5 +1,11 @@
 # CURSO: DEVOPS SENIOR
 
+## Integrantes
+* Raul Farías
+* Leonardo Oyarzun
+* Sebastían Rivera
+* Gabriel Castillo
+
 ## Módulo 1: DevOps Estratégico y GitOps
 
 ## Evaluación Parcial
