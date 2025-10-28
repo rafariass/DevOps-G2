@@ -20,21 +20,17 @@ Integra principios financieros dentro del ciclo de vida DevOps, combinando **aut
 
 A diferencia de los enfoques financieros tradicionales, FinOps se adapta al modelo de **consumo bajo demanda** de la nube y promueve decisiones técnicas basadas en **datos financieros en tiempo real**.
 
-
-
 #### ¿Cuál es su objetivo en entornos de nube?
 
 **El objetivo principal de FinOps es maximizar el valor comercial del uso de la nube**, permitiendo entregar software más rápido, mantener el control de costos y fomentar una cultura de **responsabilidad financiera compartida**.
 
 Este objetivo se logra mediante:
 
-- Transparencia de costos en tiempo real  
-- Empoderamiento de los equipos técnicos para optimizar recursos  
-- Automatización de políticas, alertas y límites  
-- Integración de decisiones financieras en pipelines CI/CD  
+- Transparencia de costos en tiempo real
+- Empoderamiento de los equipos técnicos para optimizar recursos
+- Automatización de políticas, alertas y límites
+- Integración de decisiones financieras en pipelines CI/CD
 - Gobernanza continua sin frenar la innovación
-
-
 
 **FinOps no reemplaza a DevOps, lo complementa**, añadiendo una dimensión financiera crítica para operar eficientemente en la nube. Permite tomar **decisiones informadas y ágiles** que impactan directamente en la **rentabilidad del negocio**.
 
@@ -46,37 +42,38 @@ Este objetivo se logra mediante:
 
 #### Beneficios principales
 
-1. **Visibilidad del gasto y uso en la nube**  
-   Permite visualizar datos de uso y costos mediante gráficos y reportes personalizables. Se puede filtrar por cuenta, servicio, región, etiqueta, entre otros, para entender con precisión cómo se está utilizando la nube.
+   1. **Visibilidad del gasto y uso en la nube**
+      Permite visualizar datos de uso y costos mediante gráficos y reportes personalizables. Se puede filtrar por cuenta, servicio, región, etiqueta, entre otros, para entender con precisión cómo se está utilizando la nube.
 
-2. **Análisis histórico y de tendencias**  
-   Ofrece acceso a datos históricos de consumo y permite detectar patrones de uso, picos de gasto o recursos infrautilizados. Esto apoya la toma de decisiones informadas basadas en comportamiento pasado.
+   2. **Análisis histórico y de tendencias**
+      Ofrece acceso a datos históricos de consumo y permite detectar patrones de uso, picos de gasto o recursos infrautilizados. Esto apoya la toma de decisiones informadas basadas en comportamiento pasado.
 
-3. **Forecasting y planificación**  
-   Genera proyecciones de costos futuros basadas en datos históricos. Esto facilita la planificación presupuestaria y permite anticiparse a posibles desviaciones de gasto.
+   3. **Forecasting y planificación**
+      Genera proyecciones de costos futuros basadas en datos históricos. Esto facilita la planificación presupuestaria y permite anticiparse a posibles desviaciones de gasto.
 
-4. **Identificación de oportunidades de optimización**  
-   Facilita la detección de ineficiencias, como recursos sobredimensionados o inactivos. Ayuda a identificar oportunidades para aplicar prácticas como rightsizing, instancias reservadas o Savings Plans.
+   4. **Identificación de oportunidades de optimización**
+      Facilita la detección de ineficiencias, como recursos sobredimensionados o inactivos. Ayuda a identificar oportunidades para aplicar prácticas como rightsizing, instancias reservadas o Savings Plans.
 
-5. **Responsabilidad y atribución de costes**  
-   A través del uso de etiquetas de costos (cost allocation tags) y agrupación por unidades de negocio o proyectos, permite asignar gastos a los equipos responsables. Esto impulsa una cultura de responsabilidad compartida sobre el gasto en la nube.
+   5. **Responsabilidad y atribución de costes**
+      A través del uso de etiquetas de costos (cost allocation tags) y agrupación por unidades de negocio o proyectos, permite asignar gastos a los equipos responsables. Esto impulsa una cultura de responsabilidad compartida sobre el gasto en la nube.
 
-6. **Integración operativa y automatización**  
-   Ofrece una API para integrar sus funcionalidades en procesos automatizados, sistemas de monitoreo o dashboards financieros personalizados. Esto permite incluir la gestión de costos en pipelines y otras herramientas de DevOps.
+   6. **Integración operativa y automatización**
+      Ofrece una API para integrar sus funcionalidades en procesos automatizados, sistemas de monitoreo o dashboards financieros personalizados. Esto permite incluir la gestión de costos en pipelines y otras herramientas de DevOps.
 
 #### Relación con el modelo FinOps
 
 AWS Cost Explorer se alinea con las fases del ciclo FinOps:
 
-- **Informar**: Proporciona visibilidad en tiempo real y análisis detallado del gasto.
-- **Optimizar**: Identifica recursos infrautilizados y oportunidades de ahorro.
-- **Operar**: Soporta la gobernanza del gasto con automatización y reportes continuos.
+   - **Informar**: Proporciona visibilidad en tiempo real y análisis detallado del gasto.
+   - **Optimizar**: Identifica recursos infrautilizados y oportunidades de ahorro.
+   - **Operar**: Soporta la gobernanza del gasto con automatización y reportes continuos.
 
 También contribuye a:
 
-- La descentralización del control financiero, permitiendo que equipos técnicos tomen decisiones informadas.
-- La transparencia y colaboración entre ingeniería, finanzas y operaciones.
-- La integración del control de costos en el ciclo de vida del desarrollo.
+   - La descentralización del control financiero, permitiendo que equipos técnicos tomen decisiones informadas.
+   - La transparencia y colaboración entre ingeniería, finanzas y operaciones.
+   - La integración del control de costos en el ciclo de vida del desarrollo.
+
 ---
 
 ### 3. ¿Cuál es la diferencia entre FinOps y una auditoría financiera tradicional?
@@ -85,26 +82,26 @@ También contribuye a:
 
 #### FinOps
 
-- **Enfoque continuo y operativo**.
-- Forma parte del ciclo de vida del desarrollo y operación en la nube.
-- Permite monitorear, optimizar y gestionar costos en tiempo real o casi en tiempo real.
-- Involucra a equipos técnicos (ingeniería, operaciones) y financieros de manera colaborativa.
-- Promueve la responsabilidad compartida sobre el gasto.
-- Se adapta al modelo dinámico y elástico de la nube.
-- Está integrado con herramientas como CI/CD, IaC y automatizaciones.
+   - **Enfoque continuo y operativo**.
+   - Forma parte del ciclo de vida del desarrollo y operación en la nube.
+   - Permite monitorear, optimizar y gestionar costos en tiempo real o casi en tiempo real.
+   - Involucra a equipos técnicos (ingeniería, operaciones) y financieros de manera colaborativa.
+   - Promueve la responsabilidad compartida sobre el gasto.
+   - Se adapta al modelo dinámico y elástico de la nube.
+   - Está integrado con herramientas como CI/CD, IaC y automatizaciones.
 
 #### Auditoría financiera tradicional
 
-- **Enfoque retrospectivo y puntual**.
-- Generalmente se realiza al final de un periodo fiscal (mensual, trimestral, anual).
-- Busca verificar la exactitud de los registros financieros y el cumplimiento de normativas.
-- Es responsabilidad del área contable o financiera.
-- No está diseñada para dar seguimiento operativo al gasto técnico.
-- No se integra con procesos técnicos del día a día.
+   - **Enfoque retrospectivo y puntual**.
+   - Generalmente se realiza al final de un periodo fiscal (mensual, trimestral, anual).
+   - Busca verificar la exactitud de los registros financieros y el cumplimiento de normativas.
+   - Es responsabilidad del área contable o financiera.
+   - No está diseñada para dar seguimiento operativo al gasto técnico.
+   - No se integra con procesos técnicos del día a día.
 
 #### Diferencia clave
 
-Mientras que la auditoría financiera tradicional **revisa el pasado para asegurar cumplimiento**, **FinOps actúa en el presente para optimizar el futuro** del gasto en la nube. Es una práctica activa, iterativa y colaborativa, no un ejercicio de revisión pasiva.
+   - Mientras que la auditoría financiera tradicional **revisa el pasado para asegurar cumplimiento**, **FinOps actúa en el presente para optimizar el futuro** del gasto en la nube. Es una práctica activa, iterativa y colaborativa, no un ejercicio de revisión pasiva.
 
 ---
 
@@ -118,54 +115,55 @@ A continuación se detallan las decisiones técnicas y operativas con mayor impa
 
 Estas decisiones buscan maximizar la eficiencia del gasto en recursos cloud:
 
-- **Rightsizing (dimensionamiento correcto)**: Identificación y ajuste de recursos sobredimensionados o infrautilizados.
-- **Selección de tipo de instancia o servicio**: Elegir entre EC2, Fargate, Lambda o Spot Instances según el caso de uso.
-- **Optimización de almacenamiento**: Mover datos poco accedidos a clases como S3 Infrequent Access o Glacier.
+   - **Rightsizing (dimensionamiento correcto)**: Identificación y ajuste de recursos sobredimensionados o infrautilizados.
+   - **Selección de tipo de instancia o servicio**: Elegir entre EC2, Fargate, Lambda o Spot Instances según el caso de uso.
+   - **Optimización de almacenamiento**: Mover datos poco accedidos a clases como S3 Infrequent Access o Glacier.
 
-Impacto: Reducción directa del costo de infraestructura sin afectar el rendimiento.
+``Impacto``: Reducción directa del costo de infraestructura sin afectar el rendimiento.
 
 #### 2. Decisiones sobre Ciclo de Vida y Uso de Recursos (Gobernanza Operativa)
 
 Permiten evitar el consumo innecesario de recursos cuando no están en uso:
 
-- **Scheduling (programación de apagado)**: Automatizar el apagado de entornos no productivos fuera del horario laboral.
-- **Eliminación de recursos inactivos**: Limpieza de volúmenes huérfanos, snapshots antiguos o instancias detenidas.
-- **Autoescalado eficiente**: Ajustar la capacidad según demanda real para evitar sobreaprovisionamiento.
+   - **Scheduling (programación de apagado)**: Automatizar el apagado de entornos no productivos fuera del horario laboral.
+   - **Eliminación de recursos inactivos**: Limpieza de volúmenes huérfanos, snapshots antiguos o instancias detenidas.
+   - **Autoescalado eficiente**: Ajustar la capacidad según demanda real para evitar sobreaprovisionamiento.
 
-Impacto: Ahorro operativo continuo y reducción del gasto innecesario.
+``Impacto``: Ahorro operativo continuo y reducción del gasto innecesario.
 
 #### 3. Decisiones Arquitectónicas y Cloud-Native (Kubernetes, Microservicios)
 
 En arquitecturas modernas, cada decisión de diseño puede implicar un cambio en los costos:
 
-- **Optimización de workloads en Kubernetes**: Reducir réplicas, consolidar pods y ajustar el uso de recursos.
-- **Evaluación previa del impacto financiero**: Estimar el costo de nuevos microservicios antes del despliegue.
-- **Refactorización para eficiencia**: Reescribir componentes para utilizar arquitecturas más eficientes (por ejemplo, serverless, contenedores).
+   - **Optimización de workloads en Kubernetes**: Reducir réplicas, consolidar pods y ajustar el uso de recursos.
+   - **Evaluación previa del impacto financiero**: Estimar el costo de nuevos microservicios antes del despliegue.
+   - **Refactorización para eficiencia**: Reescribir componentes para utilizar arquitecturas más eficientes (por ejemplo, serverless, contenedores).
 
-Impacto: Escalabilidad con control de gasto desde el diseño.
+``Impacto``: Escalabilidad con control de gasto desde el diseño.
 
 #### 4. Decisiones DevOps & IaC: Gobernanza FinOps como Código
 
 La automatización financiera en pipelines DevOps permite decisiones preventivas:
 
-- **Tagging automatizado**: Etiquetar recursos con metadatos como `env`, `owner`, `cost_center` para trazabilidad de costos.
-- **Validación de costos en CI/CD**: Incluir análisis de impacto financiero (por ejemplo, `terraform plan-cost`) en pull requests.
-- **Presupuestos como código**: Definir límites de gasto desde los archivos de infraestructura como código (IaC).
-- **Alertas de presupuesto**: Configurar alarmas por sobreuso o desvío de gasto.
+   - **Tagging automatizado**: Etiquetar recursos con metadatos como `env`, `owner`, `cost_center` para trazabilidad de costos.
+   - **Validación de costos en CI/CD**: Incluir análisis de impacto financiero (por ejemplo, `terraform plan-cost`) en pull requests.
+   - **Presupuestos como código**: Definir límites de gasto desde los archivos de infraestructura como código (IaC).
+   - **Alertas de presupuesto**: Configurar alarmas por sobreuso o desvío de gasto.
 
-Impacto: Gobernanza automatizada y control financiero desde la entrega continua.
+``Impacto``: Gobernanza automatizada y control financiero desde la entrega continua.
 
 #### Conclusión
 
 Las decisiones técnicas en la nube no solo impactan el rendimiento o la escalabilidad, sino también el costo directo de operación. Integrar FinOps en el ciclo DevOps permite:
 
-- Equipos con autonomía técnica y financiera.
-- Visibilidad en tiempo real del gasto por servicio o equipo.
-- Alineación entre decisiones de ingeniería y objetivos de negocio.
+   - Equipos con autonomía técnica y financiera.
+   - Visibilidad en tiempo real del gasto por servicio o equipo.
+   - Alineación entre decisiones de ingeniería y objetivos de negocio.
 
 Adoptar FinOps como cultura y no solo como práctica permite crear entornos cloud más sostenibles, eficientes y alineados con el valor de negocio.
 
 ---
+
 ### 5. ¿Qué es OpenCost y cómo contribuye a la visibilidad del gasto en Kubernetes?
 
 **OpenCost** es un proyecto de código abierto desarrollado por Kubecost y respaldado por la CNCF (Cloud Native Computing Foundation). Está diseñado para proporcionar visibilidad detallada y en tiempo real de los costos asociados al uso de Kubernetes, funcionando como una interfaz estándar de costeo para clústeres en entornos cloud-native, on-premise o híbridos.
@@ -180,11 +178,11 @@ La arquitectura de Kubernetes, al abstraer el hardware y compartir recursos entr
 
 OpenCost permite la asignación detallada del gasto a distintos niveles del clúster, incluyendo:
 
-- Pods
-- Namespaces
-- Deployments o servicios
-- Etiquetas (labels)
-- Workloads
+   - Pods
+   - Namespaces
+   - Deployments o servicios
+   - Etiquetas (labels)
+   - Workloads
 
 Esto facilita una trazabilidad completa del consumo por componente técnico o unidad de negocio.
 
@@ -196,10 +194,10 @@ En lugar de basarse solo en la capacidad provisionada, OpenCost calcula los cost
 
 Además del uso directo, OpenCost puede incluir costos indirectos como:
 
-- Overhead del clúster
-- Amortización de hardware
-- Costos reservados o compartidos
-- Recursos no directamente asignables a pods
+   - Overhead del clúster
+   - Amortización de hardware
+   - Costos reservados o compartidos
+   - Recursos no directamente asignables a pods
 
 Esto proporciona una visión más completa del costo total de operación.
 
@@ -207,25 +205,25 @@ Esto proporciona una visión más completa del costo total de operación.
 
 OpenCost se despliega dentro del clúster y opera como una capa de observabilidad financiera, compuesta por:
 
-- Un **Collector** que recolecta métricas de uso de recursos.
-- Un **Cost Model** que calcula el costo por unidad en base a precios del proveedor cloud o definidos manualmente.
-- Un **API Server** y **exportadores Prometheus** que exponen métricas financieras en series de tiempo, integrables con herramientas como Grafana.
+   - Un **Collector** que recolecta métricas de uso de recursos.
+   - Un **Cost Model** que calcula el costo por unidad en base a precios del proveedor cloud o definidos manualmente.
+   - Un **API Server** y **exportadores Prometheus** que exponen métricas financieras en series de tiempo, integrables con herramientas como Grafana.
 
 #### 5. Empoderamiento de equipos técnicos
 
 Al exponer los datos de costo a través de una API RESTful y endpoints Prometheus, OpenCost permite:
 
-- Integración en dashboards DevOps.
-- Uso en pipelines CI/CD para validar el impacto económico de despliegues.
-- Monitoreo autónomo de costos por parte de los equipos de desarrollo.
+   - Integración en dashboards DevOps.
+   - Uso en pipelines CI/CD para validar el impacto económico de despliegues.
+   - Monitoreo autónomo de costos por parte de los equipos de desarrollo.
 
 #### 6. Soporte para modelos de showback y chargeback
 
 Gracias a su nivel de detalle, OpenCost facilita:
 
-- La asignación interna de costos por equipo, producto o servicio.
-- La implementación de políticas de showback (visualización) y chargeback (redistribución de costos).
-- La toma de decisiones sobre dimensionamiento, arquitectura y optimización del gasto.
+   - La asignación interna de costos por equipo, producto o servicio.
+   - La implementación de políticas de showback (visualización) y chargeback (redistribución de costos).
+   - La toma de decisiones sobre dimensionamiento, arquitectura y optimización del gasto.
 
 #### Conclusión
 
@@ -243,33 +241,33 @@ A diferencia de las herramientas nativas de los proveedores cloud (como AWS Cost
 
 Cloudability proporciona una visión financiera integral en entornos híbridos o multi-nube:
 
-- **Consolidación de datos**: Centraliza el consumo de múltiples proveedores cloud, incluyendo AWS, Azure y Google Cloud.
-- **Visión unificada del gasto**: Supera la limitación de herramientas nativas al presentar un gasto total consolidado y estandarizado.
-- **Segmentación avanzada**: Permite segmentar el gasto por múltiples dimensiones como servicio, proyecto, etiqueta, equipo, región o zona.
+   - **Consolidación de datos**: Centraliza el consumo de múltiples proveedores cloud, incluyendo AWS, Azure y Google Cloud.
+   - **Visión unificada del gasto**: Supera la limitación de herramientas nativas al presentar un gasto total consolidado y estandarizado.
+   - **Segmentación avanzada**: Permite segmentar el gasto por múltiples dimensiones como servicio, proyecto, etiqueta, equipo, región o zona.
 
 #### 2. Mapeo de Negocios (Business Mapping) y Asignación de Costos
 
 Una de las funcionalidades clave de Cloudability es su capacidad para vincular el consumo técnico con estructuras organizativas:
 
-- **Asignación de costos organizacional**: Relaciona recursos técnicos con áreas de negocio, independientemente del número de cuentas o servicios compartidos.
-- **Visibilidad descentralizada**: Cada equipo puede visualizar su impacto financiero sin requerir conocimientos técnicos sobre la infraestructura.
-- **Integración con Kubernetes**: Asigna costos a nivel de pods, namespaces o clusters, lo que permite una trazabilidad detallada en arquitecturas cloud-native.
+   - **Asignación de costos organizacional**: Relaciona recursos técnicos con áreas de negocio, independientemente del número de cuentas o servicios compartidos.
+   - **Visibilidad descentralizada**: Cada equipo puede visualizar su impacto financiero sin requerir conocimientos técnicos sobre la infraestructura.
+   - **Integración con Kubernetes**: Asigna costos a nivel de pods, namespaces o clusters, lo que permite una trazabilidad detallada en arquitecturas cloud-native.
 
 #### 3. Motor de Optimización y Recomendaciones Automáticas
 
 Cloudability va más allá del monitoreo y habilita la acción basada en datos:
 
-- **Recomendaciones automatizadas**: Propone acciones de optimización como rightsizing, eliminación de recursos inactivos o adopción de reservas.
-- **Evaluación de reservas y alternativas arquitectónicas**: Ayuda a identificar recursos subutilizados o comparar enfoques técnicos alternativos.
-- **Predicción de impacto**: Estima el efecto de decisiones técnicas sobre el presupuesto, permitiendo planificar cambios con base financiera.
+   - **Recomendaciones automatizadas**: Propone acciones de optimización como rightsizing, eliminación de recursos inactivos o adopción de reservas.
+   - **Evaluación de reservas y alternativas arquitectónicas**: Ayuda a identificar recursos subutilizados o comparar enfoques técnicos alternativos.
+   - **Predicción de impacto**: Estima el efecto de decisiones técnicas sobre el presupuesto, permitiendo planificar cambios con base financiera.
 
 #### 4. Gobernanza y Cultura FinOps Avanzada
 
 Cloudability soporta la implementación de prácticas FinOps a nivel organizacional:
 
-- **API robusta para integración**: Se conecta con herramientas DevOps (Terraform, Helm), BI (Grafana, Looker) y sistemas de gestión (Jira, ServiceNow).
-- **Políticas FinOps activas**: Permite crear reglas que limiten el uso de recursos según condiciones técnicas o presupuestarias.
-- **Presupuestos y proyecciones**: Define presupuestos por unidad o equipo y proyecta el uso futuro, integrando alertas proactivas para prevenir sobrecostos.
+   - **API robusta para integración**: Se conecta con herramientas DevOps (Terraform, Helm), BI (Grafana, Looker) y sistemas de gestión (Jira, ServiceNow).
+   - **Políticas FinOps activas**: Permite crear reglas que limiten el uso de recursos según condiciones técnicas o presupuestarias.
+   - **Presupuestos y proyecciones**: Define presupuestos por unidad o equipo y proyecta el uso futuro, integrando alertas proactivas para prevenir sobrecostos.
 
 #### Conclusión
 
@@ -287,36 +285,36 @@ El enfoque permite que las decisiones de costo, presupuesto y optimización sean
 
 GitOps se basa en Infraestructura como Código (IaC), y FinOps se apoya en esta práctica para declarar y versionar la configuración financiera:
 
-- **Presupuestos como código**: Se pueden definir límites de gasto directamente en archivos de configuración, por ejemplo: `budget_limit = 2000`.
-- **Gestión del estado deseado financiero**: Almacenar estos parámetros en Git permite auditar, revisar y aplicar el estado deseado del gasto como cualquier otro recurso de infraestructura.
+   - **Presupuestos como código**: Se pueden definir límites de gasto directamente en archivos de configuración, por ejemplo: `budget_limit = 2000`.
+   - **Gestión del estado deseado financiero**: Almacenar estos parámetros en Git permite auditar, revisar y aplicar el estado deseado del gasto como cualquier otro recurso de infraestructura.
 
 #### 2. Validación de Costos en los Pipelines CI/CD
 
 GitOps utiliza flujos de Pull Requests y pipelines CI/CD para aplicar cambios. FinOps se integra en estos flujos para anticipar y validar el impacto económico:
 
-- **Validadores de costos**: Herramientas como `terraform plan-cost` o `Infracost` permiten estimar el costo de los cambios antes de ser aprobados.
-- **Trazabilidad financiera del despliegue**: Es posible vincular cada cambio en infraestructura con su impacto económico, lo cual mejora la visibilidad y permite decisiones más informadas.
+   - **Validadores de costos**: Herramientas como `terraform plan-cost` o `Infracost` permiten estimar el costo de los cambios antes de ser aprobados.
+   - **Trazabilidad financiera del despliegue**: Es posible vincular cada cambio en infraestructura con su impacto económico, lo cual mejora la visibilidad y permite decisiones más informadas.
 
 #### 3. Aplicación de Políticas de Optimización
 
 GitOps también permite gobernar y automatizar políticas de optimización financiera dentro de FinOps:
 
-- **Políticas FinOps activas**: Se pueden definir en archivos versionados reglas que limiten el uso de ciertos recursos según condiciones técnicas o presupuestarias.
-- **Automatización de respuestas**: Cuando un recurso excede un umbral de costo definido, un flujo automatizado puede aplicar un cambio o enviar una alerta, todo gestionado desde Git.
+   - **Políticas FinOps activas**: Se pueden definir en archivos versionados reglas que limiten el uso de ciertos recursos según condiciones técnicas o presupuestarias.
+   - **Automatización de respuestas**: Cuando un recurso excede un umbral de costo definido, un flujo automatizado puede aplicar un cambio o enviar una alerta, todo gestionado desde Git.
 
 #### 4. Gobernanza de Etiquetas (Tagging)
 
 El etiquetado es esencial en FinOps para lograr trazabilidad y asignación de costos. GitOps asegura su aplicación consistente:
 
-- **Etiquetado automático y estandarizado**: La definición de etiquetas como `owner`, `env`, o `cost_center` se incluye en la infraestructura como código, asegurando consistencia en toda la organización.
-- **Visibilidad descentralizada**: Al tener un etiquetado correcto desde IaC, herramientas como AWS Cost Explorer o Cloudability pueden segmentar y mostrar los costos por equipo, entorno o proyecto.
+   - **Etiquetado automático y estandarizado**: La definición de etiquetas como `owner`, `env`, o `cost_center` se incluye en la infraestructura como código, asegurando consistencia en toda la organización.
+   - **Visibilidad descentralizada**: Al tener un etiquetado correcto desde IaC, herramientas como AWS Cost Explorer o Cloudability pueden segmentar y mostrar los costos por equipo, entorno o proyecto.
 
 #### Conclusión
 
 GitOps transforma FinOps en un sistema dinámico y automatizado de gestión del valor. Al integrar decisiones financieras en el mismo flujo que la infraestructura y el desarrollo:
 
-- Se garantiza la trazabilidad del impacto económico de cada despliegue.
-- Se promueve la responsabilidad compartida sobre el gasto cloud.
-- Se habilita una gobernanza proactiva, basada en código, versionada y automatizada.
+   - Se garantiza la trazabilidad del impacto económico de cada despliegue.
+   - Se promueve la responsabilidad compartida sobre el gasto cloud.
+   - Se habilita una gobernanza proactiva, basada en código, versionada y automatizada.
 
 Esta integración permite que cada línea de código tenga un reflejo claro en términos de costos, facilitando una gestión financiera más eficiente, transparente y alineada con el negocio.
