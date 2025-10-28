@@ -26,13 +26,13 @@ Busca resolver los desafíos inherentes a las arquitecturas de microservicios, t
 
 La elección entre Istio y Linkerd depende del equilibrio deseado entre la potencia de configuración y la simplicidad operativa.
 
-| Característica           | Istio                                                                                                                            | Linkerd                                                                                                                          |
-| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| Característica           | Istio                                                                                                                             | Linkerd                                                                                                                          |
+| :----------------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
 | **Enfoque**              | Potente, altamente configurable y con un gran nivel de funcionalidades, ideal para entornos empresariales complejos.              | Ligero, simple y enfocado en el alto rendimiento. Diseñado para ser fácil de instalar y operar con un bajo consumo de recursos.  |
-| **Complejidad**          | Presenta una curva de aprendizaje elevada y mayor complejidad operativa.                                                         | Es rápido de implementar y su arquitectura es minimalista, lo que reduce la sobrecarga operativa.                                |
-| **Control de Tráfico**    | Ofrece control de tráfico muy avanzado y granular, permitiendo `A/B testing`, `canary releases` y `mirroring` con gran precisión. | Proporciona un control de tráfico más simple y menos granular que Istio.                                                          |
+| **Complejidad**          | Presenta una curva de aprendizaje elevada y mayor complejidad operativa.                                                          | Es rápido de implementar y su arquitectura es minimalista, lo que reduce la sobrecarga operativa.                                |
+| **Control de Tráfico**   | Ofrece control de tráfico muy avanzado y granular, permitiendo `A/B testing`, `canary releases` y `mirroring` con gran precisión. | Proporciona un control de tráfico más simple y menos granular que Istio.                                                         |
 | **Rendimiento**          | Puede tener un consumo de recursos significativo, especialmente en clústeres pequeños o medianos.                                 | Utiliza proxies ultraligeros basados en Rust, lo que resulta en un bajo consumo de CPU y memoria.                                |
-| **Comunidad**            | Cuenta con una comunidad muy amplia, abundante documentación y un gran ecosistema de integraciones.                              | Su comunidad es más pequeña y tiene menos integraciones nativas con herramientas externas en comparación con Istio.              |
+| **Comunidad**            | Cuenta con una comunidad muy amplia, abundante documentación y un gran ecosistema de integraciones.                               | Su comunidad es más pequeña y tiene menos integraciones nativas con herramientas externas en comparación con Istio.              |
 
 ---
 
@@ -102,4 +102,5 @@ Para **mitigar** este impacto, se pueden tomar las siguientes medidas:
 * **Elegir el Service Mesh adecuado**: Para entornos donde el rendimiento y la simplicidad son críticos, **Linkerd** es una opción preferible, ya que está diseñado para ser ultraligero y tener un bajo consumo de recursos.
 * **Optimizar la configuración**: En herramientas como Istio, se pueden ajustar los recursos asignados a los proxies y limitar el alcance del `mesh` solo a los `namespaces` que lo requieran.
 * **Adoptar arquitecturas modernas**: Istio está evolucionando hacia un modelo de **Ambient Mesh**, donde los `sidecars` se vuelven opcionales y se reemplazan por un agente a nivel de nodo, reduciendo significativamente la carga operativa y el consumo de recursos por `pod`.
+
 ---

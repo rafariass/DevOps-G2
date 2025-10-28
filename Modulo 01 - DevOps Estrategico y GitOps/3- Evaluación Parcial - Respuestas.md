@@ -24,7 +24,7 @@ Los patrones comunes de GitOps nos ayudan a estandarizar los despliegues y mejor
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Repository per Environment**                 | Un repositorio Git distinto para cada entorno (DEV, IST, UAT, STAGE, PROD), ofrece un mayor aislamiento.                                                                     |
 | **Single Repository with Environment Folders** | Un único repositorio con carpetas separadas por entorno para una gestión centralizada.                                                                                       |
-| **Progressive Delivery Pattern**               | Integración con herramientas como *feature flags* o *canary deployments* para lanzar cambios gradualmente y monitorear el impacto.                                            |
+| **Progressive Delivery Pattern**               | Integración con herramientas como *feature flags* o *canary deployments* para lanzar cambios gradualmente y monitorear el impacto.                                           |
 | **Drift Detection and Reconciliation**         | Uso de operadores (ArgoCD, FluxCD) para comparar el estado deseado en Git con el real del clúster, detectando y reconciliando desviaciones.                                  |
 | **Multi-Tenant GitOps**                        | Implementación en entornos compartidos con control granular de acceso y segmentación.                                                                                        |
 

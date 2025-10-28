@@ -318,3 +318,5 @@ GitOps transforma FinOps en un sistema dinámico y automatizado de gestión del 
    - Se habilita una gobernanza proactiva, basada en código, versionada y automatizada.
 
 Esta integración permite que cada línea de código tenga un reflejo claro en términos de costos, facilitando una gestión financiera más eficiente, transparente y alineada con el negocio.
+
+---
