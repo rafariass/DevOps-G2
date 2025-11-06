@@ -6,7 +6,6 @@
 | ----------------- | -------------------- | ----------------------------------- |
 | Raul Farías       | Software Architect   | raulfaria@gmail.com                 |
 | Leonardo Oyarzun  | Consultor            | gabriel.castillo.cardenas@gmail.com |
-| Sebastían Rivera  |                      |                                     |
 | Gabriel Castillo  | Consultor            | cardenas@gmail.com                  |
 
 ---

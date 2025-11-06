@@ -3,7 +3,6 @@
 ## Integrantes
 * Raul Farías
 * Leonardo Oyarzun
-* Sebastían Rivera
 * Gabriel Castillo
 
 # Módulo 2: Automatización con IA en DevOps
