@@ -6,8 +6,8 @@
 
 Utilidad de Helm: Helm es el gestor de paquetes oficial para Kubernetes. Su utilidad principal es simplificar el despliegue de aplicaciones complejas en entornos productivos, asegurando consistencia, trazabilidad, versionado y personalización controlada.
 Mejoras en el despliegue de aplicaciones:
-* Parametrización y Reutilización: Los Helm Charts permiten la instalación parametrizada, usando el mismo código (Templates YAML) con diferentes valores (values.yaml) para distintos entornos (dev, prod).
-* Gestión del Ciclo de Vida: Facilita la actualización controlada (helm upgrade) y el Rollback automático (helm rollback) a versiones funcionales previas, lo cual es ideal para entornos de producción.
+* Parametrización y reutilización: Los Helm Charts permiten la instalación parametrizada, usando el mismo código (Templates YAML) con diferentes valores (values.yaml) para distintos entornos (dev, prod).
+* Gestión del ciclo de vida: Facilita la actualización controlada (helm upgrade) y el Rollback automático (helm rollback) a versiones funcionales previas, lo cual es ideal para entornos de producción.
 * Modularidad: Permite desplegar soluciones distribuidas completas utilizando subcharts para manejar dependencias desacopladas.
 * Integración CI/CD y GitOps: Se integra en pipelines con comandos como helm lint (validación sintáctica) y helm template (renderización local), siendo la base para flujos GitOps controlados por ArgoCD o Flux.
 
@@ -26,13 +26,13 @@ Diferencia con un Deployment tradicional:
 
 ### 19. ¿Qué buenas prácticas se deben aplicar para mejorar la seguridad de los pods en un clúster de Kubernetes en producción?
 Las buenas prácticas se centran en el principio de menor privilegio y la validación de configuración:
-* Restricción de Privilegios:
+* Restricción de privilegios:
   * Prohibir ejecución como root (runAsNonRoot: true).
   * Forzar sistemas de archivos de solo lectura (readOnlyRootFilesystem: true).
-* Aplicación de Políticas: Aplicar PodSecurity Standards (PSS) (baseline o restricted) mediante etiquetas en namespaces.
-* Control de Admisión: Integrar OPA/Gatekeeper o Kyverno para rechazar manifiestos inseguros que usen capacidades elevadas o accedan al host.
-* Integridad de Imágenes: Usar imágenes firmadas (cosign) y escaneadas (Trivy, Snyk) para asegurar su integridad y detectar vulnerabilidades.
-* Gestión de Secretos: No codificar secretos en manifiestos; usar Vault o External Secrets Operator.
+* Aplicación de políticas: Aplicar PodSecurity Standards (PSS) (baseline o restricted) mediante etiquetas en namespaces.
+* Control de admisión: Integrar OPA/Gatekeeper o Kyverno para rechazar manifiestos inseguros que usen capacidades elevadas o accedan al host.
+* Integridad de imágenes: Usar imágenes firmadas (cosign) y escaneadas (Trivy, Snyk) para asegurar su integridad y detectar vulnerabilidades.
+* Gestión de secretos: No codificar secretos en manifiestos; usar Vault o External Secrets Operator.
 ---
 
 ### 20. ¿Cómo impacta la gestión de redes (CNI, políticas de red) en la disponibilidad y seguridad de las aplicaciones en Kubernetes?
@@ -40,7 +40,7 @@ Las buenas prácticas se centran en el principio de menor privilegio y la valida
 Impacto en la Disponibilidad (CNI): El plugin CNI (Container Network Interface) es esencial para la disponibilidad, ya que implementa el modelo de red plano de Kubernetes, asegurando que:
 • Cada pod tenga su propia dirección IP única.
 • Los pods puedan comunicarse entre sí sin NAT, lo cual es la base para las comunicaciones internas y el descubrimiento de servicios (CoreDNS).
-Impacto en la Seguridad (Políticas de Red):
+Impacto en la seguridad (Políticas de Red):
 Las NetworkPolicies son vitales para la seguridad porque:
 • Permiten definir qué pods pueden comunicarse entre sí y con el exterior.
 • Facilitan la microsegmentación y el aislamiento de cargas de trabajo por namespace o etiqueta.

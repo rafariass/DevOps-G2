@@ -16,10 +16,10 @@
 ¿Qué es mTLS? mTLS (mutual TLS) es una extensión del protocolo TLS donde ambos extremos de la conexión (cliente y servidor) se autentican mutuamente mediante certificados digitales válidos.
 Importancia en un Service Mesh:
 En un Service Mesh, mTLS se implementa automáticamente mediante los proxies sidecar (como Envoy en Istio). Es importante para la seguridad porque:
-* Autenticación Mutua: Garantiza la autenticidad y confidencialidad, previniendo ataques de intermediario (MITM) y suplantaciones.
-* Seguridad por Defecto: Toda comunicación interna es cifrada y autenticada, lo que reduce la exposición a tráfico no autorizado.
-* Base para Políticas L7: Permite la aplicación de políticas de autorización L7 basadas en la identidad de servicio (en lugar de solo direcciones IP).
-* Cumplimiento Normativo: Es esencial para el cumplimiento normativo en industrias reguladas.
+* Autenticación mutua: Garantiza la autenticidad y confidencialidad, previniendo ataques de intermediario (MITM) y suplantaciones.
+* Seguridad por defecto: Toda comunicación interna es cifrada y autenticada, lo que reduce la exposición a tráfico no autorizado.
+* Base para políticas L7: Permite la aplicación de políticas de autorización L7 basadas en la identidad de servicio (en lugar de solo direcciones IP).
+* Cumplimiento normativo: Es esencial para el cumplimiento normativo en industrias reguladas.
 
 ---
 
@@ -28,10 +28,10 @@ En un Service Mesh, mTLS se implementa automáticamente mediante los proxies sid
 ### 23. ¿Cómo mejora la gestión del tráfico en un entorno con Istio o Linkerd comparado con un balanceador de carga tradicional?
 
 La mejora radica en la capacidad del Service Mesh para gestionar el tráfico en la Capa de Aplicación (L7), proporcionando inteligencia y control que un balanceador tradicional (L4) no ofrece:
-* Despliegues Progresivos: Permite técnicas avanzadas como Canary releases (enrutamiento de tráfico a una pequeña porción de usuarios para pruebas) y Blue/Green deployments.
+* Despliegues progresivos: Permite técnicas avanzadas como Canary releases (enrutamiento de tráfico a una pequeña porción de usuarios para pruebas) y Blue/Green deployments.
 * Resiliencia: Incorpora mecanismos de mitigación de errores como Circuit breakers (para evitar fallos en cascada), Retries y timeouts inteligentes.
 * Observabilidad L7: El Service Mesh captura automáticamente telemetría, métricas, logs y tracing del tráfico interno, permitiendo analizar latencia y tasas de error por servicio.
-* Seguridad Integrada: El Service Mesh implementa mTLS automático entre servicios, asegurando la comunicación interna.
+* Seguridad integrada: El Service Mesh implementa mTLS automático entre servicios, asegurando la comunicación interna.
 
 ---
 

@@ -28,19 +28,19 @@ Prometheus y Grafana forman el estándar de monitoreo moderno. Prometheus es la 
 ### 15. ¿Qué ventajas ofrece una solución de observabilidad completa (métricas, trazas, logs) frente a sistemas de monitoreo tradicionales?
 La observabilidad completa (basada en Métricas, Logs estructurados y Trazas distribuidas) permite entender no solo qué está fallando, sino por qué y dónde, a diferencia del monitoreo tradicional, que solo ofrecía una vista superficial.
 Ventajas Clave:
-* Diagnóstico de Alta Precisión: La integración de los tres pilares permite diagnósticos de alta precisión en sistemas distribuidos complejos.
-* Análisis de Causa Raíz (Troubleshooting): El Distributed Tracing (trazas) permite seguir una única solicitud a través de múltiples servicios, midiendo latencias y detectando cuellos de botella, lo cual es imposible solo con métricas.
-* Correlación de Eventos: Facilita la correlación de métricas, logs y trazas para análisis forense o postmortem.
-* Toma de Decisiones Informada: Permite a los equipos responder con base en evidencia observable, y no en suposiciones.
+* Diagnóstico de alta precisión: La integración de los tres pilares permite diagnósticos de alta precisión en sistemas distribuidos complejos.
+* Análisis de causa raíz (Troubleshooting): El Distributed Tracing (trazas) permite seguir una única solicitud a través de múltiples servicios, midiendo latencias y detectando cuellos de botella, lo cual es imposible solo con métricas.
+* Correlación de eventos: Facilita la correlación de métricas, logs y trazas para análisis forense o postmortem.
+* Toma de decisiones informada: Permite a los equipos responder con base en evidencia observable, y no en suposiciones.
 
 ---
 ### 16. ¿Cómo influye la trazabilidad distribuida en la toma de decisiones técnicas dentro de equipos DevOps o SRE?
 
 La trazabilidad distribuida permite a los equipos DevOps y SRE:
-* Optimización de Rendimiento: Analizar la latencia real por segmento y servicio (span). Esto permite identificar los cuellos de botella y rastrear demoras en servicios críticos para enfocar esfuerzos de optimización.
-* Priorización de Fallas: Al visualizar la ruta completa de una transacción, se pueden detectar fallas esporádicas asociadas a componentes específicos.
-* Validación de Arquitectura: Correlacionar el comportamiento de los servicios para validar si un cambio de arquitectura o despliegue impactó negativamente el rendimiento (por ejemplo, relacionar trazas con eventos de despliegue).
-* Mejora de la Capacidad de Respuesta: Provee contexto inmediato para el diagnóstico, reduciendo así el Time to Diagnose y el MTTR.
+* Optimización de rendimiento: Analizar la latencia real por segmento y servicio (span). Esto permite identificar los cuellos de botella y rastrear demoras en servicios críticos para enfocar esfuerzos de optimización.
+* Priorización de fallas: Al visualizar la ruta completa de una transacción, se pueden detectar fallas esporádicas asociadas a componentes específicos.
+* Validación de arquitectura: Correlacionar el comportamiento de los servicios para validar si un cambio de arquitectura o despliegue impactó negativamente el rendimiento (por ejemplo, relacionar trazas con eventos de despliegue).
+* Mejora de la capacidad de respuesta: Provee contexto inmediato para el diagnóstico, reduciendo así el Time to Diagnose y el MTTR.
 
 ---
 
