@@ -12,7 +12,7 @@ CREAR INFRAESTRUCTURAS MODULARES, SEGURAS Y FUNCIONAL CON **`TERRAFORM`** AVANZA
 - FinOps
 - AIOps
 
-### CONTENIDO QUE SE REVISA (**`MÓDULO 1`**)
+### CONTENIDO QUE SE REVISA (**`MÓDULO 7`**)
 
 - Terraform modular
 - Testing; Sentinel
@@ -90,7 +90,7 @@ Sentinel puede validar y aplicar políticas relacionadas con la seguridad, el cu
 
 ### 27. ¿Cómo mejora la integración entre IaC y GitOps la trazabilidad y gobernanza de la infraestructura?
 
-# Integración de IaC y GitOps: Trazabilidad y Gobernanza Organizacional
+**Integración de IaC y GitOps: Trazabilidad y Gobernanza Organizacional**
 
 La integración de **Infraestructura como Código (IaC)**, particularmente con herramientas como **Terraform**, y el enfoque de **GitOps** transforma la manera en que se administra la infraestructura, mejorando significativamente la **trazabilidad** y la **gobernanza** organizacional.  
 Este modelo implementa una estrategia **robusta, repetible y auditable** para la provisión y mantenimiento de entornos.
@@ -152,14 +152,14 @@ La **gobernanza** se logra al imponer control sobre cómo y cuándo se realizan 
 
 ### 28. ¿Qué importancia tiene el testing en infraestructura como código y qué herramientas pueden usarse para implementarlo?
 
-# Testing en Infraestructura como Código (IaC) con Terraform
+**Testing en Infraestructura como Código (IaC) con Terraform**
 
 El **testing** en la **Infraestructura como Código (IaC)**, particularmente con **Terraform**, es una práctica esencial y estratégica para garantizar la **calidad**, la **seguridad**, la **estabilidad** y la **mantenibilidad** de los recursos desplegados.  
 El **Módulo 7** aborda el testing como una parte fundamental de la Infraestructura como Código avanzada.
 
 ---
 
-## Importancia del Testing en IaC
+**Importancia del Testing en IaC**
 
 El testing cobra una relevancia especial cuando se trabaja con **módulos reutilizables**, ya que un error o una mala práctica en un módulo puede replicarse en múltiples entornos o sistemas.  
 
