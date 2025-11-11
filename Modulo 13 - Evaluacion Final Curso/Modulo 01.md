@@ -24,9 +24,9 @@ Las preguntas de esta sección invitan al **`análisis crítico`** y vinculan co
 
 ### CONTEXTO DEL CASO:
 
-La empresa TechNova ha migrado la mayoría de sus servicios a Kubernetes y ha  adoptado un  enfoque  GitOps  para  gestionar  sus  despliegues.  Utilizan  ArgoCD  como  herramienta principal y han comenzado a integrar la gestión de secretos con Sealed Secrets y Vault.
+La empresa TechNova ha migrado la mayoría de sus servicios a Kubernetes y ha adoptado un enfoque GitOps para gestionar sus despliegues. Utilizan ArgoCD como herramienta principal y han comenzado a integrar la gestión de secretos con Sealed Secrets y Vault.
 
-Recientemente,  un  equipo  de  desarrollo  realizó  un  push  directo  a  la  rama  principal  del repositorio de manifiestos sin seguir el flujo de Pull Request definido por la organización. Esto desencadenó una sincronización automática en ArgoCD que desplegó una versión inestable de  un  microservicio  con  claves  expuestas  por  error.  El  incidente  afectó  temporalmente  el servicio  de  autenticación  y  levantó  dudas  en  la  dirección  técnica  sobre  los  controles implementados.
+Recientemente, un equipo de desarrollo realizó un push directo a la rama principal del repositorio de manifiestos sin seguir el flujo de Pull Request definido por la organización. Esto desencadenó una sincronización automática en ArgoCD que desplegó una versión inestable de un microservicio con claves expuestas por error. El incidente afectó temporalmente el servicio de autenticación y levantó dudas en la dirección técnica sobre los controles implementados.
 
 Ante la situación, el equipo DevOps ha sido convocado para presentar:
 
