@@ -5,8 +5,8 @@
 | Alumno            | Cargo                | Contacto                            |
 | ----------------- | -------------------- | ----------------------------------- |
 | Raul Farías       | Software Architect   | raulfaria@gmail.com                 |
-| Leonardo Oyarzun  | Consultor            | gabriel.castillo.cardenas@gmail.com |
-| Gabriel Castillo  | Consultor            | cardenas@gmail.com                  |
+| Leonardo Oyarzun  | Consultor            | loyarzunsilva@gmail.com             |
+| Gabriel Castillo  | Consultor            | gabriel.castillo.cardenas@gmail.com |
 
 ---
 
